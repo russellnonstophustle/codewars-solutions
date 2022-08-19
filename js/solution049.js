@@ -14,6 +14,7 @@
 
 
 String.prototype.toJadenCase = function () {
+    //split the words, map the words using charAt to uppercase the 0 position and join the slice from 1 position
     return this.split(" ").map(function(word){
     return word.charAt(0).toUpperCase() + word.slice(1);
   }).join(" ");
