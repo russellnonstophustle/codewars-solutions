@@ -30,3 +30,12 @@ function shark(pontoonDistance, sharkDistance, youSpeed, sharkSpeed, dolphin){
       return "Alive!";
     }
   }console.log(shark(12, 50, 4, 8, true))
+
+//   Best Solution 
+
+function shark(pontoonDistance, sharkDistance, youSpeed, sharkSpeed, dolphin){
+    if(dolphin){
+      sharkSpeed /= 2;
+    }
+    return pontoonDistance/youSpeed < sharkDistance/sharkSpeed ? "Alive!" : "Shark Bait!";
+  }
