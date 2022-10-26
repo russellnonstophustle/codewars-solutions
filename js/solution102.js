@@ -11,7 +11,6 @@
 // "Buckethead" is an anagram of "DeathCubeK"
 
 var isAnagram = function(test, original) {
-    let arr1 = test.toLowerCase().split('').sort().join('')
-    let arr2 = original.toLowerCase().split('').sort().join('')
-    return arr1 == arr2
+    return test.toLowerCase().split('').sort().join('') ==
+    original.toLowerCase().split('').sort().join('')
   };
