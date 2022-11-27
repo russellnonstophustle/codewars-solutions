@@ -6,7 +6,7 @@
 // The input will always be valid (numbers will be an array of length 2 or greater, and all of the items will be numbers; target will always be the sum of two different items from that array).
 
 function twoSum(numbers, target) {
-    for (let i = 0; i < numbers.length; i++){
+    for (let i = 0; i < numbers.length -1; i++){
       for (let j = 1; j < numbers.length; j++){
         if(numbers[i] + numbers[j] === target){
           return [i, j]

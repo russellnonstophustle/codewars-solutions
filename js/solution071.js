@@ -44,3 +44,4 @@ function queueTime(customers, n) {
       return Math.max(...tills);
     }
     console.log(queueTime([1,2,3,4], 1))
+    
