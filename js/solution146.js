@@ -5,7 +5,7 @@
 
 // Example: replaceAll [1,2,2] 1 2 -> in list [1,2,2] we replace 1 with 2 to get new list [2,2,2]
 
-// replaceAll(replaceAll(array: [1,2,2], old: 1, new: 2) // [2,2,2]
+// replaceAll(replaceAll(array: [1,2,2], old: 1, new: 2) // [2,2,2] -
 
 function replaceAll(input, search, replacement) {
     // check if input is array or string
