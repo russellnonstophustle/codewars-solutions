@@ -9,6 +9,6 @@ const quarterOf = (m) => {
 
 //    Clever Answer 
 
-const quarterOf = m => Math.ceil(m/3);
+// const quarterOf = m => Math.ceil(m/3);
 
 // by using ceiling and dividing by 3 we get the correct quarter 
